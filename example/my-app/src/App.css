@@ -1,0 +1,62 @@
+.nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  min-height: 50px;
+  color: black;
+  background: rgb(73, 79, 82);
+}
+
+#logo
+{
+  color: rgb(182, 158, 115);
+  font-size: 2.7em;
+  line-height: 45px;
+  margin-left: 40px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Suez One', serif;
+}
+li 
+{
+  color: rgb(199, 188, 168);
+}
+li:hover
+{
+  color: rgb(182, 158, 115);
+  text-decoration: none;
+}
+
+  .record{
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  }
+
+  span{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  hr{
+    border: 0;
+    width: 96%;               
+    background-color:#52521f;
+    height: 1px;
+  }
+  .OneKv
+  {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-bottom:10px;
+  }
+  
+  .btn {
+    padding-bottom:10px;
+    padding-top: 10px;
+  }
+  .Address p {
+    font-weight: bold;
+    padding-top: 30px;
+  }
